@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import AboutUs from "./container/AboutUs/AboutUs";
 import Chef from "./container/Chef/Chef";
+import FindUs from "./container/FindUs/FindUs";
 import Gallery from "./container/Gallery/Gallery";
 import Header from "./container/Header/Header";
 import Intro from "./container/Intro/Intro";
@@ -19,6 +20,7 @@ function App() {
       <Intro />
       <Laurels />
       <Gallery />
+      <FindUs />
     </>
   );
 }
