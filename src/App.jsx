@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import AboutUs from "./container/AboutUs/AboutUs";
 import Chef from "./container/Chef/Chef";
+import Gallery from "./container/Gallery/Gallery";
 import Header from "./container/Header/Header";
 import Intro from "./container/Intro/Intro";
 import Laurels from "./container/Laurels/Laurels";
@@ -17,6 +18,7 @@ function App() {
       <Chef />
       <Intro />
       <Laurels />
+      <Gallery />
     </>
   );
 }
